@@ -1,0 +1,25 @@
+DROP INDEX leases_dates ON leases;
+
+DROP TABLE IF EXISTS property_viewings;
+DROP TABLE IF EXISTS written_by;
+DROP TABLE IF EXISTS assigned_to;
+DROP TABLE IF EXISTS assigned;
+DROP TABLE IF EXISTS involve;
+DROP TABLE IF EXISTS owned_by;
+DROP TABLE IF EXISTS rent_out;
+DROP TABLE IF EXISTS sign;
+
+DROP TABLE IF EXISTS leases;
+
+DROP TABLE IF EXISTS owner_phone;
+DROP TABLE IF EXISTS client_phone;
+DROP TABLE IF EXISTS employee_phone;
+
+DROP TABLE IF EXISTS rental_properties;
+DROP TABLE IF EXISTS property_owners;
+DROP TABLE IF EXISTS clients;
+
+DROP TABLE IF EXISTS associate;
+DROP TABLE IF EXISTS partner;
+
+DROP TABLE IF EXISTS employee;
